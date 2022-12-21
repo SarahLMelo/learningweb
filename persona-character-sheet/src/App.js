@@ -1,10 +1,9 @@
 import './App.css';
 import { BrowserRouter as Router, Routes , Route} from 'react-router-dom';
-import Home from "./pages/Home"
-import Outside from "./pages/Outside"
-import Exploring from "./pages/Exploring"
-import Show from "./pages/Show"
-import Navbar from './components/Navbar';
+import Home from "./components/pages/Home"
+import Outside from "./components/pages/Outside"
+import Exploring from "./components/pages/Exploring"
+import Show from "./components/pages/Show"
 
 function App() {
   return (
